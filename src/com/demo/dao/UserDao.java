@@ -9,7 +9,7 @@ import java.util.List;
 
 import com.demo.model.User;
 
-
+// all database service is here
 public class UserDao {
 	Connection conn;
 
