@@ -1,5 +1,5 @@
 package com.demo.model;
-
+//User Model Class
 public class User {
 	private int id;
 	private String username;
