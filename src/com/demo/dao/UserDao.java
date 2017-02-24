@@ -13,7 +13,7 @@ import com.demo.model.User;
 public class UserDao {
 	Connection conn;
 
-	// database Connection
+	// database Connection cfgf
 	public UserDao() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
