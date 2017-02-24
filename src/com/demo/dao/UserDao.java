@@ -18,7 +18,7 @@ public class UserDao {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://ec2-52-41-143-55.us-west-2.compute.amazonaws.com:3306/testdb", "root","root");
+					"jdbc:mysql://ec2-52-41-143-55.us-west-2.compute.amazonaws.com:3306/testdb", "rakib","root");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
